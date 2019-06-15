@@ -2,6 +2,7 @@
 //Map is used to create 2 connected arrays in form of key->value pair
 //Map arranges all keys in alphabetical order
 //Map strictly allows only unique keys while multimap allows duplicate keys
+//Used to implement Red Black tree
 #include<iostream>
 #include<bits/stdc++.h>
 #include<map>
