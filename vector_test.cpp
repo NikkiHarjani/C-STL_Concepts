@@ -124,5 +124,25 @@ int main(){
 	for(int i=0; i<vec5.size(); i++)
 		cout<<vec5[i]<<" ";
 	
+//**************************TAKE INPUT IN VECTOR AND PRINT VALUES DYNAMICALLY**********************
+
+    int i=0,n,num;
+    vector <int>v;
+    cout<<"How many elements ?"<<endl;
+    cin>>n;
+    cout<<"Elements ?"<<endl;
+    while(cin>>num && i<n){
+        v.push_back(num);
+        i++;
+    }
+    cout<<"The numbers in the vector are:"<<endl;
+    for(int i=0; i<v.size(); i++){
+        cout<<v[i]<<" ";
+    }
+//**************************************************************************************************
+//****************************2D VECTOR*************************************************************
+	
+//**************************************************************************************************
+	
 return 0;
 }
